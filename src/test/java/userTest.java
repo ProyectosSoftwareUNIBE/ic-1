@@ -19,4 +19,9 @@ public class userTest {
 
         assertEquals("juan",this.User.metodoDevolver());
     }
+    @Test
+    public void metodoDevolver1(){
+        assertEquals('J',this.User.MetodoDevolver1());
+    }
+
 }
