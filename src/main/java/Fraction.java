@@ -30,5 +30,14 @@ public class Fraction {
 			return this.numerador+this.denominador;
 		}
 		
+		public int getRestaNumeros() {
+			
+			return this.numerador-this.denominador;
+		}
+		
+		public int getInversoNumeros() {
+			
+			return this.denominador/this.numerador;
+		}
 	}
 
