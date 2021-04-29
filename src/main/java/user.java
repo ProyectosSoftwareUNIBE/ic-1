@@ -1,4 +1,6 @@
-        public class user {
+import java.util.Locale;
+
+public class user {
         private String name, familyName;
         public user(String name, String familyName) {
             this.name = name;
@@ -18,8 +20,8 @@
         }
 
         public String metodoDevolver(){
-            System.out.println(getName().toLowerCase());
-            return name;
+
+            return getName().toLowerCase();
         }
     }
 
