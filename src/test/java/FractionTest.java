@@ -10,14 +10,27 @@ public class FractionTest {
 	@Before
 	public void before(){
 		
-		this.fraction = new Fraction(8,2);
+		this.fraction = new Fraction(10,20);
 	}
 
 	@Test
 	public void getSumaNumeros() {
 		
-		assertEquals(10, this.fraction.getSumaNumeros());
+		assertEquals(30, this.fraction.getSumaNumeros());
 		
+	}
+	@Test
+	
+	public void getRestaNumeros() {
+		
+		assertEquals(-10, this.fraction.getRestaNumeros());
+		
+	}
+	@Test
+	
+	public void getInversoNumeros() {
+		
+		assertEquals(2, this.fraction.getInversoNumeros() );
 	}
 
 
