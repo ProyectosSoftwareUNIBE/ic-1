@@ -23,6 +23,11 @@ public class user {
 
             return getName().toLowerCase();
         }
+        public char MetodoDevolver1(){
+
+            return  getName().charAt(0);
+        }
+
     }
 
 
